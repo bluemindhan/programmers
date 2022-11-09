@@ -170,6 +170,20 @@ public class ManyProblem {
         return answer;
     }
 
+    public static int[] solution18(String[] strlist) {
+        int[] answer = new int[strlist.length];
+        for(int i = 0; i < strlist.length ; i++){
+            answer[i] = strlist[0].length();
+        }
+        return answer;
+    }
+
+
+    public static void main(String[] args) {
+
+    }
+
+
 
 
 }
