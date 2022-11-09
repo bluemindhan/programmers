@@ -156,6 +156,20 @@ public class ManyProblem {
         return numbers[numbers.length-1] * numbers[numbers.length-2];
     }
 
+    // 아이스 아메리카노
+    public int[] solution16(int money) {
+        int division = money/5500;
+        int Remainder = money%5500;
+        int[] answer = {division,Remainder};
+        return answer;
+    }
+
+    // 배열 자르기 (num1에 입력받은 인덱스 값부터 num2에 입력받은 인덱스 값까지 출력)
+    public int[] solution17(int[] numbers, int num1, int num2) {
+        int[] answer = Arrays.copyOfRange(numbers,num1,num2+1);
+        return answer;
+    }
+
 
 
 }
