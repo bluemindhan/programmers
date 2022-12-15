@@ -6,7 +6,6 @@ public class SequenceNumber {
             int a = total / num;
             int first = a - (num / 2);
             System.out.println("first = " + first);
-            int end = a + (num / 2);
 
             if (num % 2 != 0) {
                 first++;
