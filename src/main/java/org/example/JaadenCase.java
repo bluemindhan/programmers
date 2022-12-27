@@ -10,14 +10,14 @@ public class JaadenCase {
         StringBuilder sb = new StringBuilder();
 
         while(st.hasMoreTokens()){
-//            if(st.equals(" ")){
-//                sb.append(" ");
-//            } else{
-//                String a = st.nextToken();
-//                a = a.toLowerCase();
-//                a = a.substring(0,1).toUpperCase() + a.substring(1);
-//                sb.append(a);
-//            }
+            if(st.equals(" ")){
+                sb.append(" ");
+            } else{
+                String a = st.nextToken();
+                a = a.toLowerCase();
+                a = a.substring(0,1).toUpperCase() + a.substring(1);
+                sb.append(a);
+            }
             System.out.println(st.nextToken());
         }
 
