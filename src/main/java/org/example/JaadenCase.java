@@ -18,7 +18,6 @@ public class JaadenCase {
                 a = a.substring(0,1).toUpperCase() + a.substring(1);
                 sb.append(a);
             }
-            System.out.println(st.nextToken());
         }
 
         return sb.toString();
